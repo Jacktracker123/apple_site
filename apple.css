@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(22, 22, 23, .8);
+    height: 44px;
+}
+
+header ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ol li {
+    padding: 10px 20px 10px 20px;
+}
+
+header ol li a,
+i {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner1 {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    height: 534px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner1 h1,
+h2 {
+    color: white;
+    text-align: center;
+    top: 0;
+}
+
+.banner1 h1,
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.banner1 .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 135px;
+}
+
+.banner1 .link a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.link .buy {
+    padding: 24px;
+}
+
+.banner1 img {
+    position: absolute;
+    width: 70%;
+    height: 380px;
+    padding-top: 30px;
+    right: 80px;
+    bottom: 0;
+}
+
+.banner1 .heading {
+    top: 30px;
+    position: absolute;
+}
+
+.banner-2 {
+    background-color: rgb(146, 219, 219);
+    height: 580px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.banner-2 img {
+    width: 50%;
+    height: 50%;
+}
+
+.banner-2 h1,
+h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-2 .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* top: 135px;
+    left: 660px; */
+}
+
+.banner-2 .link a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.banner-2 img {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+
+.banner-2 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
