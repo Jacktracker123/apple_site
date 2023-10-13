@@ -386,3 +386,22 @@ i {
     align-items: center;
     margin-top: 10px;
 }
+
+footer{
+    height: 934px;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+}
+
+.subscription p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #86868b;
+}
+
+section{
+    width: 1024px;
+    /* border: 1px solid black */
+}
