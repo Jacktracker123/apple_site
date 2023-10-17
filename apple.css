@@ -676,6 +676,7 @@ h5 {
         color: white;
         font-size: 17px;
     }
+    
     .footer-links {
         display: none;
     }
@@ -704,6 +705,12 @@ h5 {
         padding: 10px;
         display: flex;
         justify-content: space-between;
+    }
+    .hidden-links p,i{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    color: #424245;
+
     }
     section {
         width: 100%;
